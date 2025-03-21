@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "lexend";
+    src: url(../fonts/Lexend_Deca/LexendDeca-VariableFont_wght.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "big-shoulder";
+    src: url(../fonts/Big_Shoulders/BigShoulders-VariableFont_opsz\,wght.ttf);
+    font-weight: 700;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 15px;
+    width: 1440px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  hsla(0, 0%, 100%, 0.75);
+}
+
+h2 {
+    font-family: "big-shoulder";
+}
+
+.btn {
+    background-color: hsl(0, 0%, 95%);
+    border: solid 1px hsl(0, 0%, 95%);
+    border-radius: 12rem;
+    padding: 0.5rem 0.5rem;
+    margin-right: 3rem;
+    transition: all 0.2s ease-in;
+}
+
+.btn-sedans {
+    color: hsl(31, 77%, 52%);
+}
+
+.btn-sedans:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+    cursor: pointer;
+}
+
+.btn-suvs {
+    color: hsl(184, 100%, 22%);
+}
+
+.btn-suvs:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+    cursor: pointer;
+}
+
+.btn-luxury {
+    color: hsl(179, 100%, 13%);
+}
+
+.btn-luxury:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+    cursor: pointer;
+}
+
+
+.attributions {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    
+}
+.attribution {
+    padding: 5%;
+    display: grid;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+
+}
+
+.att-sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 1rem 0 0 1rem;
+
+}
+
+.att-suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.att-luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 1rem 1rem 0;
+}
+
